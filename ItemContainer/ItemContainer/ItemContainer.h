@@ -2,17 +2,19 @@
 #include <vector>
 #include "IItemContainer.h"
 #include "Item.h"
-#include "Observer.h"
+#include "ItemObserver.h"
 
 // ItemContainer class using the IItemContainer interface, equivalent to the "Concrete Subject" or "Concrete Observable" in the observer pattern 
+
+namespace d20Items {
 
 class ItemContainer : 
 	public IItemContainer
 {
 private:
 	//Vector to hold items in the container
-	vector<Item*> items;
-	vector<Item*>::iterator iter;
+	std::vector<Item*> items;
+	std::vector<Item*>::iterator iter;
 
 public:
 
@@ -32,5 +34,8 @@ public:
 	// removes a specified item from the container
 	void remove(Item*);
 
-};
+	//print stuff on every update of items in the bag:
+	void printBag() const;
 
+};
+} // namespace d20Items 

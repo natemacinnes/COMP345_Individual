@@ -13,6 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Items">
+      <UniqueIdentifier>{ed32b098-c799-49cc-8a30-ee88fe6d0951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Items\Children">
+      <UniqueIdentifier>{924063ff-7bb1-4510-bf79-c9ddbb7464f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items">
+      <UniqueIdentifier>{08ad5839-7b5a-4481-8bec-4848bc0a106b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items\Children">
+      <UniqueIdentifier>{4abd1481-6994-419c-9f55-ebc38485e613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Observer">
+      <UniqueIdentifier>{53fbdc5e-2369-42f8-9297-3d775d45a15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Observable">
+      <UniqueIdentifier>{a2b495b8-40b7-4cf6-ba20-16dfed6c65be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enchantment">
+      <UniqueIdentifier>{8ddcea3c-1784-4433-8a14-438f2070f92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enchantment">
+      <UniqueIdentifier>{31bafdf1-d28c-40a9-ab3b-76824ce82853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Observer">
+      <UniqueIdentifier>{700f430f-533f-440b-aa7f-8004aeed2265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Observable">
+      <UniqueIdentifier>{64a4ed38-04a2-483a-ba81-1aa2886cc003}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -25,90 +55,90 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Item.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Weapon.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Enchantment.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Helmet.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Items</Filter>
     </ClInclude>
     <ClInclude Include="Armor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Shield.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Ring.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
     <ClInclude Include="Belt.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
     <ClInclude Include="Boots.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
-    <ClInclude Include="ItemContainer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Helmet.h">
+      <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
-    <ClInclude Include="IItemContainer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Ring.h">
+      <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
-    <ClInclude Include="Observer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Shield.h">
+      <Filter>Header Files\Items\Children</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
     <ClInclude Include="ConsoleOut.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="IItemContainer.h">
+      <Filter>Header Files\Observable</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemContainer.h">
+      <Filter>Header Files\Observable</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantment.h">
+      <Filter>Header Files\Enchantment</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemObserver.h">
+      <Filter>Header Files\Observer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Item.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Weapon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Echantment.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Helmet.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Armor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Shield.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ring.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Belt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Boots.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ItemContainerDriver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ItemContainer.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Source Files\Items\Children</Filter>
     </ClCompile>
-    <ClCompile Include="IItemContainer.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Belt.cpp">
+      <Filter>Source Files\Items\Children</Filter>
     </ClCompile>
-    <ClCompile Include="Observer.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Boots.cpp">
+      <Filter>Source Files\Items\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Helmet.cpp">
+      <Filter>Source Files\Items\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>Source Files\Items\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\Items\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Source Files\Items\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Echantment.cpp">
+      <Filter>Source Files\Enchantment</Filter>
     </ClCompile>
     <ClCompile Include="ConsoleOut.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="IItemContainer.cpp">
+      <Filter>Source Files\Observable</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemContainer.cpp">
+      <Filter>Source Files\Observable</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemObserver.cpp">
+      <Filter>Source Files\Observer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

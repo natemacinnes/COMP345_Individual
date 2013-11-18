@@ -52,6 +52,10 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -88,7 +92,7 @@
     <ClInclude Include="IItemContainer.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="ItemContainer.h" />
-    <ClInclude Include="Observer.h" />
+    <ClInclude Include="ItemObserver.h" />
     <ClInclude Include="Ring.h" />
     <ClInclude Include="Shield.h" />
     <ClInclude Include="stdafx.h" />
@@ -106,7 +110,7 @@
     <ClCompile Include="ItemContainerDriver.cpp" />
     <ClCompile Include="Echantment.cpp" />
     <ClCompile Include="Item.cpp" />
-    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="ItemObserver.cpp" />
     <ClCompile Include="Ring.cpp" />
     <ClCompile Include="Shield.cpp" />
     <ClCompile Include="stdafx.cpp">

@@ -1,11 +1,12 @@
 #pragma once
-#include "Observer.h"
+#include "ItemObserver.h"
 #include "ItemContainer.h"
 
 // A concrete application of an Observer
+namespace d20Items {
 
 class ConsoleOut :
-	public Observer
+	public ItemObserver
 {
 
 public:
@@ -20,4 +21,4 @@ public:
 private:
 	ItemContainer *_items;
 };
-
+} // namespace d20Items 
