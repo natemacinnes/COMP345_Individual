@@ -3,7 +3,9 @@
 
 namespace d20Items {
 
+// The number of Shield enchantments
 const int Shield::SIZE= 1;
+// Array of valid Shield enchantments
 const EnchantmentType Shield::ENCHANTMENTS[SIZE] = {ARMOR_CLASS};
 
 Shield::Shield(void)

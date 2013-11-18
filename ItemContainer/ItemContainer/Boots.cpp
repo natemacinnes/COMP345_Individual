@@ -3,7 +3,10 @@
 
 namespace d20Items {
 
+// The numner of valid Boot enchantments
 const int Boots::SIZE= 2;
+
+// Array of valid Boot enchantments
 const EnchantmentType Boots::ENCHANTMENTS[SIZE] = {ARMOR_CLASS, DEXTERITY};
 
 Boots::Boots(void)

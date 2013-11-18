@@ -8,7 +8,10 @@ class Sword :
 {
 public:
 	Sword(void);
-	~Sword(void);
+
+	Sword(std::string);
+	
+	virtual ~Sword(void);
 };
 
 } // d20Items namespace

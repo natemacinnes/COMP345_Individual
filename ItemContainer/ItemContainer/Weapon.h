@@ -24,6 +24,9 @@ public:
 private:
 	Enchantment enchantment;
 	std::string name;
+	int damage;
+	int cCost;
+	int weight;
 	static const int SIZE;
 	static const EnchantmentType ENCHANTMENTS[2];
 };

@@ -3,7 +3,10 @@
 
 namespace d20Items {
 
+// The amount of valid Armor enchantments
 const int Armor::SIZE= 1;
+
+// Armor's valid encahntments
 const EnchantmentType Armor::ENCHANTMENTS[SIZE] = {ARMOR_CLASS};
 
 Armor::Armor(void)

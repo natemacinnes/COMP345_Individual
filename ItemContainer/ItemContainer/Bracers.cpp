@@ -3,13 +3,33 @@
 
 namespace d20Items {
 
+const int Bracers::SIZE = 2;
+const EnchantmentType Bracers::ENCHANTMENTS[SIZE] = {ARMOR_CLASS, STRENGTH};
+
+
 Bracers::Bracers(void)
 {
 }
 
+Bracers::Bracers(std::string newName) :
+	Item(newName)
+{
+	enchantment.setEnchantmentType(ENCHANTMENTS,SIZE);
+	enchantment.setEnchantmentValue();
+
+}
 
 Bracers::~Bracers(void)
 {
 }
 
+Enchantment Bracers::getEnchantment() const 
+{
+	return this->enchantment;
+}
+
+
+std::string Bracers::toString() const {
+	return this->getName() + " " + enchantment.toString();
+}
 } // d20Items namespace

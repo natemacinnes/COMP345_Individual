@@ -18,6 +18,7 @@
 #include "Ring.h"
 #include "Belt.h"
 #include "Boots.h"
+#include "Bow.h"
 #include <string> 
 #include <ctime>
 #include <cstdlib>
@@ -44,6 +45,7 @@ int main()
 	Item* ring1 = new Ring("Ice Storm Shield");
 	Item* belt1 = new Belt("Ice Storm Belt");
 	Item* boots1 = new Boots("Ice Storm Boots");
+	Item* bow1 = new Bow("Bob's Bow", 20);
 
 	// Create an item container called 'chest'
 	ItemContainer *chest = new ItemContainer();
