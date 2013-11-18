@@ -25,9 +25,6 @@
     <Filter Include="Source Files\Items\Children">
       <UniqueIdentifier>{4abd1481-6994-419c-9f55-ebc38485e613}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Observer">
-      <UniqueIdentifier>{53fbdc5e-2369-42f8-9297-3d775d45a15d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Observable">
       <UniqueIdentifier>{a2b495b8-40b7-4cf6-ba20-16dfed6c65be}</UniqueIdentifier>
     </Filter>
@@ -42,6 +39,9 @@
     </Filter>
     <Filter Include="Source Files\Observable">
       <UniqueIdentifier>{64a4ed38-04a2-483a-ba81-1aa2886cc003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Observable\Observer">
+      <UniqueIdentifier>{53fbdc5e-2369-42f8-9297-3d775d45a15d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -72,14 +72,11 @@
     <ClInclude Include="Ring.h">
       <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
-    <ClInclude Include="Shield.h">
-      <Filter>Header Files\Items\Children</Filter>
-    </ClInclude>
     <ClInclude Include="Weapon.h">
       <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
     <ClInclude Include="ConsoleOut.h">
-      <Filter>Header Files\Observer</Filter>
+      <Filter>Header Files\Observable\Observer</Filter>
     </ClInclude>
     <ClInclude Include="IItemContainer.h">
       <Filter>Header Files\Observable</Filter>
@@ -91,7 +88,19 @@
       <Filter>Header Files\Enchantment</Filter>
     </ClInclude>
     <ClInclude Include="ItemObserver.h">
-      <Filter>Header Files\Observer</Filter>
+      <Filter>Header Files\Observable\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Header Files\Items\Children</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Header Files\Items\Children</Filter>
+    </ClInclude>
+    <ClInclude Include="Bracers.h">
+      <Filter>Header Files\Items\Children</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +148,15 @@
     </ClCompile>
     <ClCompile Include="ItemObserver.cpp">
       <Filter>Source Files\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Source Files\Items\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Bracers.cpp">
+      <Filter>Source Files\Items\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Source Files\Items\Children</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
