@@ -11,7 +11,9 @@ const EnchantmentType Helmet::ENCHANTMENTS[SIZE] = {INTELLIGENCE, WISDOM, ARMOR_
 
 Helmet::Helmet(void)
 {
-	Item();
+	Item("Helmet of ");
+	enchantment.setEnchantmentType(ENCHANTMENTS,SIZE);
+	enchantment.setEnchantmentValue();
 }
 
 Helmet::Helmet(std::string newName)

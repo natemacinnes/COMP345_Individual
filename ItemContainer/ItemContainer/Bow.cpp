@@ -5,6 +5,7 @@ namespace d20Items {
 
 Bow::Bow(void)
 {
+	Weapon("Bow of ");
 	this->range = 0;
 }
 

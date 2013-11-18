@@ -24,7 +24,7 @@ public:
 
 	virtual std::string toString(void) const;
 
-private:
+protected:
 	std::string name;
 	Enchantment enchantment;
 };

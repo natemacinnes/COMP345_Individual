@@ -23,7 +23,7 @@ public:
 
 private:
 	Enchantment enchantment;
-	std::string name;
+	//std::string name;
 	static const int SIZE;
 	static const EnchantmentType ENCHANTMENTS[1];
 };

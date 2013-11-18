@@ -5,7 +5,7 @@ namespace d20Items {
 
 Sword::Sword(void)
 {
-
+	Weapon("Sword of ");
 }
 
 Sword::Sword(std::string newName) 

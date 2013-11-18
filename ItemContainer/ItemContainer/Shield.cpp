@@ -10,13 +10,14 @@ const EnchantmentType Shield::ENCHANTMENTS[SIZE] = {ARMOR_CLASS};
 
 Shield::Shield(void)
 {
-	Item();
+	//Item("Shield of ");
+	enchantment.setEnchantmentType(ENCHANTMENTS,SIZE);
+	enchantment.setEnchantmentValue();
 }
 
 Shield::Shield(std::string newName) 
 	: Item(newName) 
 {
-	name = newName;
 	enchantment.setEnchantmentType(ENCHANTMENTS,SIZE);
 	enchantment.setEnchantmentValue();
 }
@@ -28,7 +29,7 @@ Shield::~Shield(void)
 
 std::string Shield::getName() const 
 {
-	return this->name;
+	return name;
 }
 
 Enchantment Shield::getEnchantment() const {
@@ -36,6 +37,6 @@ Enchantment Shield::getEnchantment() const {
 }
 
 std::string Shield::toString() const {
-	return this->getName() + " " + enchantment.toString();
+	return name + " " + enchantment.toString();
 }
 } // namespace d20Items 

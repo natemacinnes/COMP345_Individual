@@ -11,7 +11,9 @@ const EnchantmentType Belt::ENCHANTMENTS[SIZE] = {STRENGTH, CONSTITUTION};
 
 Belt::Belt(void)
 {
-	Item();
+	Item("Belt of ");
+	enchantment.setEnchantmentType(ENCHANTMENTS,SIZE);
+	enchantment.setEnchantmentValue();
 }
 
 Belt::Belt(std::string newName) 
@@ -22,7 +24,6 @@ Belt::Belt(std::string newName)
 	enchantment.setEnchantmentValue();
 
 }
-
 
 Belt::~Belt(void)
 {

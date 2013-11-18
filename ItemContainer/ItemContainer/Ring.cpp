@@ -11,7 +11,9 @@ const EnchantmentType Ring::ENCHANTMENTS[SIZE] = {ARMOR_CLASS, STRENGTH, CONSTIT
 
 Ring::Ring(void)
 {
-	Item();
+	Item("Ring of ");
+	enchantment.setEnchantmentType(ENCHANTMENTS,SIZE);
+	enchantment.setEnchantmentValue();
 }
 
 Ring::Ring(std::string newName) 

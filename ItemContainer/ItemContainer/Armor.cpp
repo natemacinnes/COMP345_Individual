@@ -11,7 +11,9 @@ const EnchantmentType Armor::ENCHANTMENTS[SIZE] = {ARMOR_CLASS};
 
 Armor::Armor(void)
 {
-	Item();
+	Item("Armor of ");
+	enchantment.setEnchantmentType(ENCHANTMENTS,SIZE);
+	enchantment.setEnchantmentValue();
 }
 
 Armor::Armor(std::string newName) :

@@ -12,7 +12,9 @@ const EnchantmentType Weapon::ENCHANTMENTS[SIZE] = {ATTACK_BONUS, DAMAGE_BONUS};
 
 Weapon::Weapon(void)
 {
-	Item();
+	Item("Weapon of ");
+	enchantment.setEnchantmentType(ENCHANTMENTS,SIZE);
+	enchantment.setEnchantmentValue();
 }
 
 Weapon::Weapon(std::string newName) 

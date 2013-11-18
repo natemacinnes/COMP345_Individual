@@ -30,6 +30,11 @@ void Enchantment::setEnchantmentValue()
 	eValue = 1 + rand() % MAX_ENCHANTMENT;
 }
 
+void Enchantment::setEnchantmentValue(int eVal)
+{
+	eValue = eVal;
+}
+
 void Enchantment::setEnchantmentType(const EnchantmentType enchantmentTypes[], const int size) 
 {
 	int _eType = rand() % size;

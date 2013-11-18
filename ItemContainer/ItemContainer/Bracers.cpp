@@ -9,6 +9,7 @@ const EnchantmentType Bracers::ENCHANTMENTS[SIZE] = {ARMOR_CLASS, STRENGTH};
 
 Bracers::Bracers(void)
 {
+	Item("Bracers of ");
 }
 
 Bracers::Bracers(std::string newName) :

@@ -102,6 +102,15 @@
     <ClInclude Include="Bow.h">
       <Filter>Header Files\Items\Children</Filter>
     </ClInclude>
+    <ClInclude Include="ChestBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChestDirector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeveledChestBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -157,6 +166,15 @@
     </ClCompile>
     <ClCompile Include="Bow.cpp">
       <Filter>Source Files\Items\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="ChestBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChestDirector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeveledChestBuilder.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -19,6 +19,9 @@
 #include "Belt.h"
 #include "Boots.h"
 #include "Bow.h"
+#include "ChestBuilder.h"
+#include "ChestDirector.h"
+#include "LeveledChestBuilder.h"
 #include <string> 
 #include <ctime>
 #include <cstdlib>
@@ -34,10 +37,22 @@ int main()
 {
 	cout << "The following is a small example of the Observer Pattern" << endl;
 	cout << "implemented on the Item Container." << endl << endl;
+	
+	ChestDirector cDirector;
+
+	ChestBuilder* lChestBuilder = new LeveledChestBuilder(5);
+
+	cDirector.setChestBuilder(lChestBuilder);
+	cDirector.constructChest();
+	ItemContainer* leveledChest = cDirector.getChest();
+
+	ConsoleOut *output = new ConsoleOut(leveledChest);
 
 	// set time to null for the random function
 	srand(time(NULL));
 	
+	/*
+
 	Item* weapon1 = new Weapon("Sword of Ice Storm");
 	Item* helmet1 = new Helmet("Ice Storm Heml");
 	Item* armor1 = new Armor("Ice Storm Armor");
@@ -70,7 +85,8 @@ int main()
 
 	// allow user to remove an item or items if they wish
 	removeItem(chest);
-	
+	*/
+
 	cout << endl;
 	cout << "This has been a demo of Nathan MacInnes's Item Container" << endl;
 	cout << "using the observer pattern." << endl;

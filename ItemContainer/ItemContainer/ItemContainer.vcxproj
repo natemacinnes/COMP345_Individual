@@ -88,6 +88,8 @@
     <ClInclude Include="Boots.h" />
     <ClInclude Include="Bow.h" />
     <ClInclude Include="Bracers.h" />
+    <ClInclude Include="ChestBuilder.h" />
+    <ClInclude Include="ChestDirector.h" />
     <ClInclude Include="ConsoleOut.h" />
     <ClInclude Include="Enchantment.h" />
     <ClInclude Include="Helmet.h" />
@@ -95,6 +97,7 @@
     <ClInclude Include="Item.h" />
     <ClInclude Include="ItemContainer.h" />
     <ClInclude Include="ItemObserver.h" />
+    <ClInclude Include="LeveledChestBuilder.h" />
     <ClInclude Include="Ring.h" />
     <ClInclude Include="Shield.h" />
     <ClInclude Include="stdafx.h" />
@@ -108,6 +111,8 @@
     <ClCompile Include="Boots.cpp" />
     <ClCompile Include="Bow.cpp" />
     <ClCompile Include="Bracers.cpp" />
+    <ClCompile Include="ChestBuilder.cpp" />
+    <ClCompile Include="ChestDirector.cpp" />
     <ClCompile Include="ConsoleOut.cpp" />
     <ClCompile Include="Helmet.cpp" />
     <ClCompile Include="IItemContainer.cpp" />
@@ -116,6 +121,7 @@
     <ClCompile Include="Echantment.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemObserver.cpp" />
+    <ClCompile Include="LeveledChestBuilder.cpp" />
     <ClCompile Include="Ring.cpp" />
     <ClCompile Include="Shield.cpp" />
     <ClCompile Include="stdafx.cpp">
