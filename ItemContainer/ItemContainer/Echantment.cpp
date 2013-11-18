@@ -9,13 +9,13 @@ Enchantment::Enchantment(void)
 {
 }
 
-Enchantment::Enchantment(int newEType, int newEValue) 
+Enchantment::Enchantment(EnchantmentType newEType, int newEValue) 
 {
 	eType = newEType;
 	eValue = newEValue;
 }
 
-Enchantment::Enchantment(const int enchantmentTypes[], const int size) 
+Enchantment::Enchantment(const EnchantmentType enchantmentTypes[], const int size) 
 {
 	this->setEnchantmentType(enchantmentTypes, size);
 	this->setEnchantmentValue();
@@ -30,7 +30,7 @@ void Enchantment::setEnchantmentValue()
 	eValue = 1 + rand() % MAX_ENCHANTMENT;
 }
 
-void Enchantment::setEnchantmentType(const int enchantmentTypes[], const int size) 
+void Enchantment::setEnchantmentType(const EnchantmentType enchantmentTypes[], const int size) 
 {
 	int _eType = rand() % size;
 	eType = enchantmentTypes[_eType];
@@ -41,7 +41,7 @@ int Enchantment::getEnchantmentValue() const
 	return eValue;
 }
 
-int Enchantment::getEnchantmentType() const
+EnchantmentType Enchantment::getEnchantmentType() const
 {
 	return eType;
 }\

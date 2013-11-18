@@ -4,7 +4,7 @@
 namespace d20Items {
 
 const int Belt::SIZE= 2;
-const int Belt::ENCHANTMENTS[SIZE] = {0, 2};
+const EnchantmentType Belt::ENCHANTMENTS[SIZE] = {STRENGTH, CONSTITUTION};
 
 Belt::Belt(void)
 {

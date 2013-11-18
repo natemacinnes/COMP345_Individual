@@ -4,7 +4,7 @@
 namespace d20Items {
 
 const int Shield::SIZE= 1;
-const int Shield::ENCHANTMENTS[SIZE] = {6};
+const EnchantmentType Shield::ENCHANTMENTS[SIZE] = {ARMOR_CLASS};
 
 Shield::Shield(void)
 {

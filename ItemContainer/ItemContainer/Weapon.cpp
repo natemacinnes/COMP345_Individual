@@ -6,7 +6,7 @@
 namespace d20Items {
 
 const int Weapon::SIZE= 2;
-const int Weapon::ENCHANTMENTS[SIZE] = {7, 8};
+const EnchantmentType Weapon::ENCHANTMENTS[SIZE] = {ATTACK_BONUS, DAMAGE_BONUS};
 
 Weapon::Weapon(void)
 {

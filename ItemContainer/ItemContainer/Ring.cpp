@@ -4,7 +4,7 @@
 namespace d20Items {
 
 const int Ring::SIZE= 5;
-const int Ring::ENCHANTMENTS[SIZE] = {6, 0, 2, 4, 5};
+const EnchantmentType Ring::ENCHANTMENTS[SIZE] = {ARMOR_CLASS, STRENGTH, CONSTITUTION, WISDOM, CHARISMA};
 
 Ring::Ring(void)
 {

@@ -4,7 +4,7 @@
 namespace d20Items {
 
 const int Boots::SIZE= 2;
-const int Boots::ENCHANTMENTS[SIZE] = {6,1};
+const EnchantmentType Boots::ENCHANTMENTS[SIZE] = {ARMOR_CLASS, DEXTERITY};
 
 Boots::Boots(void)
 {

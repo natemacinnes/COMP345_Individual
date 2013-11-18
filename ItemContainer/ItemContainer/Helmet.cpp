@@ -4,7 +4,7 @@
 namespace d20Items {
 
 const int Helmet::SIZE = 3;
-const int Helmet::ENCHANTMENTS[SIZE] = {};
+const EnchantmentType Helmet::ENCHANTMENTS[SIZE] = {INTELLIGENCE, WISDOM, ARMOR_CLASS};
 
 Helmet::Helmet(void)
 {
