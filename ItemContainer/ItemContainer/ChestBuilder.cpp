@@ -29,7 +29,7 @@ void ChestBuilder::createNewChest()
 
 Item* ChestBuilder::createRandomItem()
 {
-	int itemID = (rand() % 11) - 1;
+	int itemID = (rand() % 9);
 	Item* item;
 
 	switch(itemID)
@@ -43,22 +43,22 @@ Item* ChestBuilder::createRandomItem()
 		case 2:
 			return item = new Boots("Boots of ");
 			break;
-		case 4:
+		case 3:
 			return item = new Bow("Bow of ", 20);
 			break;
-		case 5:
+		case 4:
 			return item = new Bracers("Bracers of ");
 			break;
-		case 6:
+		case 5:
 			return item = new Helmet("Helmet of ");
 			break;
-		case 7:
+		case 6:
 			return item = new Ring("Ring of ");
 			break;
-		case 8:
+		case 7:
 			return item = new Shield("Shield of ");
 			break;
-		case 9:
+		case 8:
 			return item = new Sword("Sword of ");
 			break;
 		default:

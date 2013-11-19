@@ -98,6 +98,7 @@
     <ClInclude Include="ItemContainer.h" />
     <ClInclude Include="ItemObserver.h" />
     <ClInclude Include="LeveledChestBuilder.h" />
+    <ClInclude Include="RandomChestBuilder.h" />
     <ClInclude Include="Ring.h" />
     <ClInclude Include="Shield.h" />
     <ClInclude Include="stdafx.h" />
@@ -122,6 +123,7 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemObserver.cpp" />
     <ClCompile Include="LeveledChestBuilder.cpp" />
+    <ClCompile Include="RandomChestBuilder.cpp" />
     <ClCompile Include="Ring.cpp" />
     <ClCompile Include="Shield.cpp" />
     <ClCompile Include="stdafx.cpp">
